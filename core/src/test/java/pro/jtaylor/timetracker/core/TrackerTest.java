@@ -14,8 +14,8 @@ import pro.jtaylor.timetracker.core.dao.TimeEntry;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = TrackerCoreConfig.class)
-//public class TrackerTest {
-//   @Autowired
+public class TrackerTest {
+   @Autowired
     private Tracker tracker;
 
     @Test
